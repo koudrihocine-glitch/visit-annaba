@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "name": "avra-annaba-ai-proxy",
+  "functions": {
+    "api/ai-proxy.js": { "maxDuration": 60 }
+  },
+  "routes": [
+    { "src": "/api/ai-proxy", "dest": "/api/ai-proxy.js" }
+  ]
+}
